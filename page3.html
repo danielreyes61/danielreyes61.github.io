@@ -35,9 +35,12 @@
 
         function mod() {
             var fir = Emax - Emin;
+            fir = parseFloat(fir);
             var sec = Emax + Emin;
+            sec = parseFloat(sec);
             var per = fir / sec;
-            var per = per * 10000;
+            per = parseFloat(per);
+            var per = per * 100;
             document.write("<br><br>The percent of modulation is: " + per.toFixed(2));
         }
 
