@@ -25,15 +25,21 @@
 
         <br/>    <br/>
 <body>
+  <button onclick="mod()">Mod</button>
+  <p id="modout"></p>
     <script>
-        var Emax = prompt("Please enter Emax", "");
-        Emax = parseFloat(Emax);
-        var Emin = prompt("Please enter Emin", "");
-        Emin = parseFloat(Emin);
-        document.write("This is the number you entered for Emax " + Emax + "<br>");
-        document.write("This is the number you entered for Emin " + Emin + "<br>");
+
 
         function mod() {
+          document.getElementById("modout").innerHTML=("");
+          var Emax = prompt("Please enter Emax", "");
+          Emax = parseFloat(Emax);
+          var Emin = prompt("Please enter Emin", "");
+          Emin = parseFloat(Emin);
+
+
+
+
             var fir = Emax - Emin;
             fir = parseFloat(fir);
             var sec = Emax + Emin;
@@ -41,11 +47,14 @@
             var per = fir / sec;
             per = parseFloat(per);
             var per = per * 100;
-            document.write("<br><br>The percent of modulation is: " + per.toFixed(2));
+            document.getElementById("modout").innerHTML+=("This is the number you entered for Emax " + Emax + "<br>");
+            document.getElementById("modout").innerHTML+=("This is the number you entered for Emin " + Emin + "<br>");
+            document.getElementById("modout").innerHTML+=("<br><br>The percent of modulation is: " + per.toFixed(2));
+
         }
 
 
-        mod();
+
     </script>
 
 </body>
