@@ -25,16 +25,22 @@
 
         <br/>    <br/>
 <body>
-  <button onclick="mod()">Mod</button>
+  <form>
+    Emax:<br>
+    <input type="number" id="emax"><br>
+    Emin:<br>
+    <input type="number" id="emin">
+  </form>
+  <button onclick="mod()">Calculate</button>
   <p id="modout"></p>
     <script>
 
 
         function mod() {
           document.getElementById("modout").innerHTML=("");
-          var Emax = prompt("Please enter Emax", "");
+          var Emax = document.getElementById("emax").value;
           Emax = parseFloat(Emax);
-          var Emin = prompt("Please enter Emin", "");
+          var Emin = document.getElementById("emin").value;
           Emin = parseFloat(Emin);
 
 
