@@ -10,14 +10,14 @@ header {
 .img-thumbnail2 {
     padding: 4px;
     line-height: 1.846;
-    background-color: #ffffff;
+    background-color: #A9A9A9;
     border: 1px solid #dddddd;
-    border-radius: 5px;
+    border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     display: inline-block;
-    max-width: 80%;
+    max-width: 65%;
     height: auto;
 }
 
@@ -157,4 +157,7 @@ footer h5 {
 
 div.container.post {
   margin-bottom:50px;
+}
+p {
+text-indent: 50px;
 }
