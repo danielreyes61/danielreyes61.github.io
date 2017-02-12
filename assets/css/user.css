@@ -7,19 +7,6 @@ header {
 .navbar-nav {
   margin-top:14px;
 }
-.img-thumbnail2 {
-    padding: 4px;
-    line-height: 1.846;
-    background-color: #A9A9A9;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    display: inline-block;
-    max-width: 65%;
-    height: auto;
-}
 
 .navbar-nav .nav li {
   height:50px;
@@ -158,6 +145,19 @@ footer h5 {
 div.container.post {
   margin-bottom:50px;
 }
-p {
-text-indent: 50px;
+
+.img-responsive2 {
+  /*.img-thumbnail2 {
+    padding:4px;*/
+  /*line-height:1.846;*/
+  /*background-color:#A9A9A9;*/
+  border:1px solid #dddddd;
+  border-radius:2px;
+  -webkit-transition:all .2s ease-in-out;
+  /*-o-transition:all .2s ease-in-out;*/
+  transition:all .2s ease-in-out;
+  display:inline-block;
+  max-width:inherit;
+  height:150%;
 }
+
