@@ -1,14 +1,15 @@
 .breadcrumb {
   text-align:center;
-  background-color:transparent;
   border-bottom:1px solid #eee;
   padding-top:12px;
+  background-color:rgb(118,17,11);
   padding-bottom:12px;
   margin-bottom:40px;
 }
 
 nav.navbar.navbar-default {
   margin-bottom:0px;
+  background-color:rgb(173,84,78);
 }
 
 @media (min-width:992px) {
@@ -53,9 +54,9 @@ nav.navbar.navbar-default {
   font-size:20px;
   border-radius:50%;
   margin:4px;
-  color:#fff;
+  color:#6a1a1a;
   text-align:center;
-  background-color:#798FA5;
+  background-color:#031526;
   height:32px;
   opacity:0.8;
   line-height:32px;
@@ -75,5 +76,25 @@ nav.navbar.navbar-default {
 img {
   width:auto;
   height:60px;
+}
+
+body {
+  background-color:grey;
+}
+
+p {
+  color:white;
+}
+
+h3 {
+  color:white;
+}
+
+h4 {
+  color:white;
+}
+
+i.fa.fa-star {
+  color:yellow;
 }
 
