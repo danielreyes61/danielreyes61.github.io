@@ -9,7 +9,7 @@
 
 nav.navbar.navbar-default {
   margin-bottom:0px;
-  background-color:rgb(62,112,239);
+  background-color:rgb(3,23,72);
 }
 
 @media (min-width:992px) {
@@ -79,7 +79,7 @@ img {
 }
 
 body {
-  background-color:rgb(122,165,215);
+  background-color:rgb(134,181,237);
 }
 
 p {
@@ -99,10 +99,19 @@ i.fa.fa-star {
 }
 
 a.navbar-brand.navbar-link {
-  color:rgb(18,8,142);
+  color:rgb(109,188,232);
 }
 
 span {
   color:rgb(109,188,232);
+}
+
+td {
+  background-color:rgb(11,28,62);
+  width:auto;
+}
+
+tr {
+  width:auto;
 }
 
